@@ -52,17 +52,27 @@ jupyter-nbextension enable rise --py --sys-prefix
 
 `--sys-prefix` can be replaced by `--user` or `--system` depending on the type of installation desired.
 
+Depending on taste, you may prefer to use a bash kernel for some tasks.
+
+```bash
+pip3 install bash_kernel
+python3 -m bash_kernel.install
+```
 
 In addition, the following packages are required (and can be installed using `pip`)
 
 - rpy2
 - biopython
+- pandas
+- matplotlib
 - presto
 - changeo
 
 ### R packages
 
 - ggplot2
+- igraph
+- dplyr
 - alakazam
 - shazam
 
