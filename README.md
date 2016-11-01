@@ -34,6 +34,10 @@ IgBLAST compares reassorted BCR/TCR sequences against a germline database using 
 
 vdjtools analyses CDR3 regions, and is well suited for TCR analyses. Installation instructions can be found at [http://vdjtools-doc.readthedocs.io/en/latest/install.html](http://vdjtools-doc.readthedocs.io/en/latest/install.html).
 
+### phylip
+
+dnapars from the phylip suite of programs is used for inference of lineage trees in the R library alakazam. It can be downloaded from [http://evolution.genetics.washington.edu/phylip.html](http://evolution.genetics.washington.edu/phylip.html), but is also available from package managers.
+
 ### Python packages
 
 This course makes heavy use of Jupyter notebooks. You will need to install Jupyter e.g.
