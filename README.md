@@ -37,6 +37,16 @@ This course makes heavy use of Jupyter notebooks. You will need to install Jupyt
 pip3 install notebook
 ```
 
+The slides make use of the RISE extension:
+
+```
+pip3 install RISE
+jupyter-nbextension install rise --py --sys-prefix
+jupyter-nbextension enable rise --py --sys-prefix
+```
+
+`--sys-prefix` can be replaced by `--user` or `--system` depending on the type of installation desired.
+
 In addition, the following packages are required (and can be installed using `pip`)
 
 - rpy2
