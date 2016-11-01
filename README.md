@@ -26,6 +26,10 @@ You will need to have the following installed on your computer:
 
 Entrez Direct, or EDirect, allows programmatic access to NCBI. It is available for download from [ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/](ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/).
 
+### SRA Toolkit
+
+The SRA Toolkit from NCBI allows downloading of datasets from NCBI SRA to FASTQ files stored locally. It can be downloaded from [https://github.com/ncbi/sra-tools/wiki/Downloads](https://github.com/ncbi/sra-tools/wiki/Downloads).
+
 ### IgBLAST
 
 IgBLAST compares reassorted BCR/TCR sequences against a germline database using a modified version of BLAST. It is available from [ftp://ftp.ncbi.nih.gov/blast/executables/igblast/release/](ftp://ftp.ncbi.nih.gov/blast/executables/igblast/release/).
