@@ -26,6 +26,10 @@ You will need to have the following installed on your computer:
 
 Entrez Direct, or EDirect, allows programmatic access to NCBI. It is available for download from [ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/](ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/).
 
+### SRA Toolkit
+
+The SRA Toolkit from NCBI allows downloading of datasets from NCBI SRA to FASTQ files stored locally. It can be downloaded from [https://github.com/ncbi/sra-tools/wiki/Downloads](https://github.com/ncbi/sra-tools/wiki/Downloads).
+
 ### IgBLAST
 
 IgBLAST compares reassorted BCR/TCR sequences against a germline database using a modified version of BLAST. It is available from [ftp://ftp.ncbi.nih.gov/blast/executables/igblast/release/](ftp://ftp.ncbi.nih.gov/blast/executables/igblast/release/).
@@ -33,6 +37,10 @@ IgBLAST compares reassorted BCR/TCR sequences against a germline database using 
 ### vdjtools
 
 vdjtools analyses CDR3 regions, and is well suited for TCR analyses. Installation instructions can be found at [http://vdjtools-doc.readthedocs.io/en/latest/install.html](http://vdjtools-doc.readthedocs.io/en/latest/install.html).
+
+### phylip
+
+dnapars from the phylip suite of programs is used for inference of lineage trees in the R library alakazam. It can be downloaded from [http://evolution.genetics.washington.edu/phylip.html](http://evolution.genetics.washington.edu/phylip.html), but is also available from package managers.
 
 ### Python packages
 
@@ -52,17 +60,27 @@ jupyter-nbextension enable rise --py --sys-prefix
 
 `--sys-prefix` can be replaced by `--user` or `--system` depending on the type of installation desired.
 
+Depending on taste, you may prefer to use a bash kernel for some tasks.
+
+```bash
+pip3 install bash_kernel
+python3 -m bash_kernel.install
+```
 
 In addition, the following packages are required (and can be installed using `pip`)
 
 - rpy2
 - biopython
+- pandas
+- matplotlib
 - presto
 - changeo
 
 ### R packages
 
 - ggplot2
+- igraph
+- dplyr
 - alakazam
 - shazam
 
