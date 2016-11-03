@@ -76,6 +76,10 @@ In addition, the following packages are required (and can be installed using `pi
 - presto
 - changeo
 
+Whilst not a package, but rather a set of Python scripts, @williamdlees TRIgS will be used as a simple interface to analyse immunoglobulin sequences:
+
+[https://github.com/williamdlees/TRIgS](https://github.com/williamdlees/TRIgS)
+
 ### R packages
 
 - ggplot2
